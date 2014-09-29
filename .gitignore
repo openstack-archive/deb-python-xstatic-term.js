@@ -1,0 +1,5 @@
+/XStatic_term.js.egg-info/
+/dist/
+/build/
+*~
+*.pyc
