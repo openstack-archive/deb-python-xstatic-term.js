@@ -1,5 +1,5 @@
 include README.rst
-recursive-include xstatic/pkg/bootstrap *
+recursive-include xstatic/pkg/termjs *
 
 global-exclude *.pyc
 global-exclude *.pyo
