@@ -18,8 +18,7 @@ Homepage: https://github.com/chjj/term.js
 Package: python-xstatic-term.js
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: python-xstatic, ${misc:Depends}, ${python:Depends}
-Suggests: python-xstatic-term.js-doc
+Depends: libjs-term.js, python-xstatic, ${misc:Depends}, ${python:Depends}
 Description: term.js XStatic support - Python 2.x
  XStatic is a Python web development tool for handling required static data
  files from external projects, such as CSS, images, and JavaScript. It provides
@@ -37,8 +36,7 @@ Description: term.js XStatic support - Python 2.x
 Package: python3-xstatic-term.js
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: python3-xstatic, ${misc:Depends}, ${python3:Depends}
-Suggests: python-xstatic-term.js-doc
+Depends: libjs.term.js, python3-xstatic, ${misc:Depends}, ${python3:Depends}
 Description: term.js XStatic support - Python 3.x
  XStatic is a Python web development tool for handling required static data
  files from external projects, such as CSS, images, and JavaScript. It provides
