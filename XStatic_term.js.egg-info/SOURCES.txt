@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+XStatic_term.js.egg-info/PKG-INFO
+XStatic_term.js.egg-info/SOURCES.txt
+XStatic_term.js.egg-info/dependency_links.txt
+XStatic_term.js.egg-info/namespace_packages.txt
+XStatic_term.js.egg-info/not-zip-safe
+XStatic_term.js.egg-info/top_level.txt
+xstatic/__init__.py
+xstatic/pkg/__init__.py
+xstatic/pkg/termjs/__init__.py
+xstatic/pkg/termjs/data/term.js

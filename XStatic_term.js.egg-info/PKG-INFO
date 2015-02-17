@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: XStatic-term.js
+Version: 0.0.4.2
+Summary: term.js 0.0.4 (XStatic packaging standard)
+Home-page: https://github.com/chjj/term.js
+Author: Thomas Kluyver
+Author-email: thomas@kluyver.me.uk
+License: (same as term.js)
+Description: XStatic-termjs
+        --------------
+        
+        term.js javascript library packaged for setuptools (easy_install) / pip.
+        
+        * term.js project: `Github chjj/term.js <https://github.com/chjj/term.js>`_
+        * XStatic package: `Github takluyver/XStatic-termjs <https://github.com/takluyver/XStatic-termjs>`_
+        
+        This package is intended to be used by **any** project that needs these files.
+        
+        It intentionally does **not** provide any extra code except some metadata
+        **nor** has any extra requirements. You MAY use some minimal support code from
+        the XStatic base package, if you like.
+        
+        You can find more info about the xstatic packaging way in the package `XStatic`.
+        
+        
+Keywords: termjs xstatic
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: MIT License

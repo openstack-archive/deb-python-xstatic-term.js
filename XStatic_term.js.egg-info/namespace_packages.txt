@@ -1,0 +1,2 @@
+xstatic
+xstatic.pkg
