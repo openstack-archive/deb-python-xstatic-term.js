@@ -1,0 +1,5 @@
+python-xstatic-term.js (0.0.4.2-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Thomas Goirand <zigo@debian.org>  Tue, 17 Feb 2015 17:13:53 +0100

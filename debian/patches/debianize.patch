@@ -1,0 +1,20 @@
+Description: Debianize
+ Using the non-embedded version of libjs-term.js
+Author: Thomas Goirand <zigo@debian.org>
+Forwarded: not-needed
+Last-Update: 2015-02-17
+
+--- python-xstatic-term.js-0.0.4.2.orig/xstatic/pkg/termjs/__init__.py
++++ python-xstatic-term.js-0.0.4.2/xstatic/pkg/termjs/__init__.py
+@@ -37,9 +37,9 @@ HOMEPAGE = 'https://github.com/chjj/term
+ LICENSE = '(same as %s)' % DISPLAY_NAME
+ 
+ from os.path import join, dirname
+-BASE_DIR = join(dirname(__file__), 'data')
++#BASE_DIR = join(dirname(__file__), 'data')
+ # linux package maintainers just can point to their file locations like this:
+-#BASE_DIR = '/usr/share/javascript/jquery'
++BASE_DIR = '/usr/share/javascript/term.js'
+ 
+ LOCATIONS = {
+     # CDN locations (if no public CDN exists, use an empty dict)
