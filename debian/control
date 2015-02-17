@@ -9,6 +9,7 @@ Build-Depends: debhelper (>= 9),
                python-setuptools,
                python3-all,
                python3-setuptools
+Build-Conflicts: python-xstatic, python3-xstatic
 Standards-Version: 3.9.6
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-xstatic-term.js.git
 Vcs-Git: git://anonscm.debian.org/openstack/python-xstatic-term.js.git
@@ -17,7 +18,7 @@ Homepage: https://github.com/chjj/term.js
 Package: python-xstatic-term.js
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: ${misc:Depends}, ${python:Depends}
+Depends: python-xstatic, ${misc:Depends}, ${python:Depends}
 Suggests: python-xstatic-term.js-doc
 Description: term.js XStatic support - Python 2.x
  XStatic is a Python web development tool for handling required static data
@@ -36,7 +37,7 @@ Description: term.js XStatic support - Python 2.x
 Package: python3-xstatic-term.js
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: ${misc:Depends}, ${python3:Depends}
+Depends: python3-xstatic, ${misc:Depends}, ${python3:Depends}
 Suggests: python-xstatic-term.js-doc
 Description: term.js XStatic support - Python 3.x
  XStatic is a Python web development tool for handling required static data
