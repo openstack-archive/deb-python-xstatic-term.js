@@ -11,8 +11,8 @@ Build-Depends: debhelper (>= 9),
                python3-setuptools
 Build-Conflicts: python-xstatic, python3-xstatic
 Standards-Version: 3.9.6
-Vcs-Browser: https://anonscm.debian.org/cgit/openstack/python-xstatic-term.js.git/
-Vcs-Git: https://anonscm.debian.org/git/openstack/python-xstatic-term.js.git
+Vcs-Browser: https://git.openstack.org/cgit/openstack/deb-python-xstatic-term.js?h=debian%2Fnewton
+Vcs-Git: https://git.openstack.org/openstack/deb-python-xstatic-term.js -b debian/newton
 Homepage: https://github.com/chjj/term.js
 
 Package: python-xstatic-term.js
